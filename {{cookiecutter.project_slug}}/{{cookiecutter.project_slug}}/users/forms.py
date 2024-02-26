@@ -1,6 +1,7 @@
 from allauth.account.forms import SignupForm
 from allauth.socialaccount.forms import SignupForm as SocialSignupForm
 from django.contrib.auth import forms as admin_forms
+from django import forms
 {%- if cookiecutter.username_type == "email" %}
 from django.forms import EmailField
 {%- endif %}
@@ -38,13 +39,19 @@ class UserAdminCreationForm(admin_forms.UserCreationForm):
         {%- endif %}
 
 
+class DateInput(forms.DateInput):
+    input_type = 'date'
+
+
 class UserSignupForm(SignupForm):
     """
     Form that will be rendered on a user sign up section/screen.
     Default fields will be added automatically.
     Check UserSocialSignupForm for accounts created from social.
     """
-
+    name = forms.CharField(max_length=255, help_text="Your Name")
+    date_of_birth = forms.DateField(widget=DateInput)
+    avatar = forms.ImageField()
 
 class UserSocialSignupForm(SocialSignupForm):
     """
