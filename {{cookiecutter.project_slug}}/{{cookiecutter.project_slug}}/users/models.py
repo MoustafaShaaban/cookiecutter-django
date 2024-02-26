@@ -1,9 +1,9 @@
+import datetime
 {%- if cookiecutter.username_type == "email" %}
 from typing import ClassVar
-
 {% endif -%}
 from django.contrib.auth.models import AbstractUser
-from django.db.models import CharField
+from django.db.models import CharField, DateField, ImageField
 {%- if cookiecutter.username_type == "email" %}
 from django.db.models import EmailField
 {%- endif %}
@@ -24,6 +24,8 @@ class User(AbstractUser):
 
     # First and last name do not cover name patterns around the globe
     name = CharField(_("Name of User"), blank=True, max_length=255)
+    date_of_birth = DateField(_("User Date of Birth"), blank=True, default=datetime.date.today)
+    avatar = ImageField(_("User Avatar"), upload_to="users_avatar", default="default.jpg")
     first_name = None  # type: ignore[assignment]
     last_name = None  # type: ignore[assignment]
     {%- if cookiecutter.username_type == "email" %}
