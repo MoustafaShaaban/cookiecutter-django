@@ -25,10 +25,10 @@ RUN npm run build
 
 {%- endif %}
 # define an alias for the specific python version used in this file.
-FROM docker.io/python:3.11.8-slim-bookworm as python
+FROM docker.io/python:3.12.4-slim-bookworm as python
 
 # Python build stage
-FROM docker.io/python as python-build-stage
+FROM python as python-build-stage
 
 ARG BUILD_ENVIRONMENT=production
 
@@ -36,7 +36,7 @@ ARG BUILD_ENVIRONMENT=production
 RUN apt-get update && apt-get install --no-install-recommends -y \
   # dependencies for building Python packages
   build-essential \
-  # psycopg2 dependencies
+  # psycopg dependencies
   libpq-dev
 
 # Requirements are installed here to ensure they will be cached.
@@ -48,7 +48,7 @@ RUN pip wheel --wheel-dir /usr/src/app/wheels  \
 
 
 # Python 'run' stage
-FROM docker.io/python as python-run-stage
+FROM python as python-run-stage
 
 ARG BUILD_ENVIRONMENT=production
 ARG APP_HOME=/app
@@ -65,7 +65,7 @@ RUN addgroup --system django \
 
 # Install required system dependencies
 RUN apt-get update && apt-get install --no-install-recommends -y \
-  # psycopg2 dependencies
+  # psycopg dependencies
   libpq-dev \
   # Translations dependencies
   gettext \
@@ -117,7 +117,7 @@ COPY --chown=django:django . ${APP_HOME}
 {%- endif %}
 
 # make django owner of the WORKDIR directory as well.
-RUN chown django:django ${APP_HOME}
+RUN chown -R django:django ${APP_HOME}
 
 USER django
 

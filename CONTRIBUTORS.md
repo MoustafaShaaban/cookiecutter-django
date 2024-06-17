@@ -216,6 +216,13 @@ Listed in alphabetical order.
     <td></td>
   </tr>
   <tr>
+    <td>Alexandr Artemyev</td>
+    <td>
+      <a href="https://github.com/Mogost">Mogost</a>
+    </td>
+    <td>MOGOST</td>
+  </tr>
+  <tr>
     <td>Alvaro [Andor]</td>
     <td>
       <a href="https://github.com/andor-pierdelacabeza">andor-pierdelacabeza</a>
@@ -657,6 +664,13 @@ Listed in alphabetical order.
     <td>DavidDiazPinto</td>
   </tr>
   <tr>
+    <td>David Păcioianu</td>
+    <td>
+      <a href="https://github.com/DavidPacioianu">DavidPacioianu</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Davit Tovmasyan</td>
     <td>
       <a href="https://github.com/davitovmasyan">davitovmasyan</a>
@@ -811,6 +825,13 @@ Listed in alphabetical order.
     <td>fabaff</td>
   </tr>
   <tr>
+    <td>farwill</td>
+    <td>
+      <a href="https://github.com/farwill">farwill</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Fateme Fouladkar</td>
     <td>
       <a href="https://github.com/FatemeFouladkar">FatemeFouladkar</a>
@@ -874,6 +895,13 @@ Listed in alphabetical order.
     <td></td>
   </tr>
   <tr>
+    <td>Geo Maciolek</td>
+    <td>
+      <a href="https://github.com/GeoMaciolek">GeoMaciolek</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>ghazi-git</td>
     <td>
       <a href="https://github.com/ghazi-git">ghazi-git</a>
@@ -912,6 +940,13 @@ Listed in alphabetical order.
     <td>Guilherme Guy</td>
     <td>
       <a href="https://github.com/guilherme1guy">guilherme1guy</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>GvS</td>
+    <td>
+      <a href="https://github.com/GvS666">GvS666</a>
     </td>
     <td></td>
   </tr>
@@ -1049,6 +1084,13 @@ Listed in alphabetical order.
     <td></td>
   </tr>
   <tr>
+    <td>JAEGYUN JUNG</td>
+    <td>
+      <a href="https://github.com/TGoddessana">TGoddessana</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Jakub Boukal</td>
     <td>
       <a href="https://github.com/SukiCZ">SukiCZ</a>
@@ -1080,6 +1122,13 @@ Listed in alphabetical order.
     <td>Jan Van Bruggen</td>
     <td>
       <a href="https://github.com/jvanbrug">jvanbrug</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Jason Mok</td>
+    <td>
+      <a href="https://github.com/jasonmokk">jasonmokk</a>
     </td>
     <td></td>
   </tr>
@@ -1364,6 +1413,13 @@ Listed in alphabetical order.
     <td>flyudvik</td>
   </tr>
   <tr>
+    <td>Manas Mallick</td>
+    <td>
+      <a href="https://github.com/ManDun">ManDun</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Manjit Pardeshi</td>
     <td>
       <a href="https://github.com/Manjit2003">Manjit2003</a>
@@ -1376,6 +1432,13 @@ Listed in alphabetical order.
       <a href="https://github.com/marciomazza">marciomazza</a>
     </td>
     <td>marciomazza</td>
+  </tr>
+  <tr>
+    <td>Marios Frixou</td>
+    <td>
+      <a href="https://github.com/frixou89">frixou89</a>
+    </td>
+    <td></td>
   </tr>
   <tr>
     <td>Martin Blech</td>
@@ -1581,6 +1644,13 @@ Listed in alphabetical order.
     <td></td>
   </tr>
   <tr>
+    <td>Nadav Peretz</td>
+    <td>
+      <a href="https://github.com/nadavperetz">nadavperetz</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Naveen</td>
     <td>
       <a href="https://github.com/naveensrinivasan">naveensrinivasan</a>
@@ -1644,6 +1714,13 @@ Listed in alphabetical order.
     <td>pamelafox</td>
   </tr>
   <tr>
+    <td>Param Kapur</td>
+    <td>
+      <a href="https://github.com/paramkpr">paramkpr</a>
+    </td>
+    <td>ParamKapur</td>
+  </tr>
+  <tr>
     <td>Parbhat Puri</td>
     <td>
       <a href="https://github.com/parbhat">parbhat</a>
@@ -1654,6 +1731,13 @@ Listed in alphabetical order.
     <td>Patrick Tran</td>
     <td>
       <a href="https://github.com/theptrk">theptrk</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Patrick Zhang</td>
+    <td>
+      <a href="https://github.com/PatDuJour">PatDuJour</a>
     </td>
     <td></td>
   </tr>
@@ -1717,6 +1801,13 @@ Listed in alphabetical order.
     <td>Plurific</td>
     <td>
       <a href="https://github.com/paulschwenn">paulschwenn</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>quroom</td>
+    <td>
+      <a href="https://github.com/quroom">quroom</a>
     </td>
     <td></td>
   </tr>
@@ -1838,6 +1929,13 @@ Listed in alphabetical order.
       <a href="https://github.com/shywn-mrk">shywn-mrk</a>
     </td>
     <td>shywn_mrk</td>
+  </tr>
+  <tr>
+    <td>Simeon Emanuilov</td>
+    <td>
+      <a href="https://github.com/s-emanuilov">s-emanuilov</a>
+    </td>
+    <td>s_emanuilov</td>
   </tr>
   <tr>
     <td>Simon Rey</td>
