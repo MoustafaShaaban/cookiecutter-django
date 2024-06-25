@@ -3,6 +3,62 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## 2024.06.24
+
+
+### Updated
+
+- Update django-anymail to 11.0 ([#5163](https://github.com/cookiecutter/cookiecutter-django/pull/5163))
+
+- Update coverage to 7.5.4 ([#5162](https://github.com/cookiecutter/cookiecutter-django/pull/5162))
+
+## 2024.06.22
+
+
+### Updated
+
+- Bump amazon/aws-cli from 2.16.10 to 2.17.0 ([#5161](https://github.com/cookiecutter/cookiecutter-django/pull/5161))
+
+- Auto-update pre-commit hooks ([#5160](https://github.com/cookiecutter/cookiecutter-django/pull/5160))
+
+- Update ruff to 0.4.10 ([#5159](https://github.com/cookiecutter/cookiecutter-django/pull/5159))
+
+## 2024.06.20
+
+
+### Fixed
+
+- Remove deprecated docker and python tags from GitLab CI config ([#5158](https://github.com/cookiecutter/cookiecutter-django/pull/5158))
+
+## 2024.06.19
+
+
+### Updated
+
+- Update djangorestframework to 3.15.2 ([#5156](https://github.com/cookiecutter/cookiecutter-django/pull/5156))
+
+- Update django-cors-headers to 4.4.0 ([#5154](https://github.com/cookiecutter/cookiecutter-django/pull/5154))
+
+- Update sentry-sdk to 2.6.0 ([#5153](https://github.com/cookiecutter/cookiecutter-django/pull/5153))
+
+- Update whitenoise to 6.7.0 ([#5155](https://github.com/cookiecutter/cookiecutter-django/pull/5155))
+
+## 2024.06.18
+
+
+### Updated
+
+- Bump amazon/aws-cli from 2.16.8 to 2.16.10 ([#5149](https://github.com/cookiecutter/cookiecutter-django/pull/5149))
+
+## 2024.06.17
+
+
+### Updated
+
+- Update django-compressor to 4.5 ([#5145](https://github.com/cookiecutter/cookiecutter-django/pull/5145))
+
+- Update rcssmin to 1.1.2 ([#4614](https://github.com/cookiecutter/cookiecutter-django/pull/4614))
+
 ## 2024.06.15
 
 
